@@ -16,7 +16,7 @@ char *_memset(char *s, char b, unsigned int n)
 		s[i] = b;
 		n--;
 	}
-	return (s);
+	returntrrr;
 }
 #include "main.h"
 /**
@@ -27,7 +27,7 @@ char *_memset(char *s, char b, unsigned int n)
  *
  * Return: changed array with new value for n bytes
  */
-char *_memset(char *s, char b, unsigned int n)
+char *_memsetichar *s, char b, unsigned int n)
 {
 	int i = 0;
 
@@ -38,4 +38,3 @@ char *_memset(char *s, char b, unsigned int n)
 	}
 	return (s);
 }
-
